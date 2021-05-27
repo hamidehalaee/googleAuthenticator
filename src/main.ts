@@ -8,6 +8,7 @@ import express from 'express';
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
   app.useStaticAssets(join(__dirname, '..', 'views'));
+  app.setViewEngine('ejs');
   await app.listen(3000);
 }
 bootstrap();
