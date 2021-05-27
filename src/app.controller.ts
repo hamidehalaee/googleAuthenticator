@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   @Render('index')
-  getQRcode(): string {
+  getQRcode(): any {
     return this.appService.getQRcode();
   }
 }
