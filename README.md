@@ -1,4 +1,4 @@
-# googleAuthenticator
+# googleAuthenticator in nestjs
 2FA in nestjs 
 
 ## Installation
