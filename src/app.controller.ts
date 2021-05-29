@@ -10,4 +10,9 @@ export class AppController {
   getQRcode(): any {
     return this.appService.getQRcode();
   }
+
+  // @Get()
+  // verify(): any {
+  //   return this.appService.verify();
+  // }
 }
